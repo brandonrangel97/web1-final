@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Basic&display=swap);
+
+  
+h1 {
+  font-family: Basic;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+nav {
+  background-color: #313234;
+  padding: 0 em;
+}
+.logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+body {
+  background-color: #313234;
+}
+
+#name {
+  padding: 7em;
+  color: brown;
+  background-color: #313234;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://i.postimg.cc/xjkFW76N/hgerherherh.png);
+  opacity: 0.8;
+}
+
+#bottom {
+  padding: 4em;
+  text-align: center;
+  background-image: url(https://i.postimg.cc/xjkFW76N/hgerherherh.png);
+}
+
+a:hover {
+  background-color: white;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+a {
+  font-family: Basic;
+  background-color: #f08f7c;
+  color: black;
+  padding: 15px 32px;
+  font-size: 16px;
+  border: solid black;
+}
+
+.container {
+  padding: 2em;
+  color: brown;
+  background-color: #313234;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+html {
+  scroll-behavior: smooth;
+}
+.titles {
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: white;
+  font-family: basic;
+}
+.first {
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
+.second {
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
+.third {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 500px;
+  max-width: 100%;
+}
+.fourth {
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+hr.line {
+  border: none;
+  height: 4px;
+  background: #f08f7c;
+}
